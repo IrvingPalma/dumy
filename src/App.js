@@ -7,7 +7,7 @@ import ScrollHooks from './components/ScrollHooks';
 function App() {
   return (
     <div className="App">
-   
+     console.log("ENTRANDO UN NUEVO A LA PAGINA ANTES DE RENDERIZADO!!!!")
       <AjaxApis/>
       <hr/>
       <ContadorHooks titulo="Seguidores"/>
