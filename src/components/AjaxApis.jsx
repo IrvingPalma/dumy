@@ -18,6 +18,10 @@ export default class AjaxApis extends Component{
     };
 
     componentDidMount(){
+        
+     console.log("ENTRANDO UN NUEVO A LA PAGINA ANTES DE RENDERIZADO!!!!")
+
+        
         let url="https://pokeapi.co/api/v2/pokemon/";
         fetch(url)
         .then((res)=>res.json())
